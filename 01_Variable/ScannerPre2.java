@@ -6,13 +6,19 @@ public class ScannerPre2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.
-        //String name 이름 입력 받기
+        System.out.print("이름을 입력하세요 : ");
+        String name = sc.next();
 
-        //int age 나이 입력 받기
+        System.out.print("나이를 입력하세요 : ");
+        int age = sc.nextInt();
 
-        //String hobby 취미 입력 받기
+        System.out.print("취미를 입력하세요 : ");
+        String hobby = sc.next();
 
-        //출력 System.out.println 4번 입력
+        System.out.println("===자기소개===");
+        System.out.println("이름: " + name);
+        System.out.println("나이: " + age);
+        System.out.println("취미: " + hobby);
+
     }
 }
