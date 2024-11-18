@@ -13,7 +13,7 @@ public class VariableEx4 {
         //상수명 작성 : 모두 대문자로 작성, 연결되는 단어 사이에는 "_"로 구분
         //상수명을 모두 대문자로 표기하는 것은 개발자의 약속
         //상수표기  자료형 변수명 = "변수값";
-        final String NAME = "홍길동";
+        final String NAMEs = "홍길동";
 
         final int MIN =0;
         final int MAX = 100;
