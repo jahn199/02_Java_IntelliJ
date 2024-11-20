@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16c71371-1459-4ab0-ba9a-0600b95979b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../03_Control/src/com/kh/practice/condition/ConditionPre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_Control/src/com/kh/practice/condition/ConditionPreRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../00_JavaStart/src/com/kh/스택_힙.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_Control/src/com/kh/loof/LoofDoWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_Array/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_Array/src/com/kh/arrayEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_Array/src/com/kh/ex/ArrayEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_Array/src/com/kh/ex/ArrayRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_Array/src/practice/ArrayPre1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_Array/src/practice/ArrayPreRun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-workspace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-workspace.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_Control/src/com/kh/loof/LoofRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_Control/src/com/kh/loof/LoofRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_Control/src/com/kh/practice/condition/Practice1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_Control/src/com/kh/practice/condition/Practice1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_Control/src/com/kh/practice/condition/Practice1Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_Control/src/com/kh/practice/condition/Practice1Run.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +76,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.실습문제3" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -95,6 +97,8 @@
       <workItem from="1731979442130" duration="615000" />
       <workItem from="1731980724701" duration="1239000" />
       <workItem from="1731982821011" duration="1271000" />
+      <workItem from="1732060839194" duration="1390000" />
+      <workItem from="1732066806416" duration="1199000" />
     </task>
     <servers />
   </component>
