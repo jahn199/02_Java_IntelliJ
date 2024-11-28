@@ -2,15 +2,18 @@ package com.kh.CollectionEx.pack1.listEx;
 
 public class Clothing {
     private String name;
-    private String categorty;
+    private String category;
     private String price;
+
+    // 메서드 기본메서드 필수메서드 게터 세터 toString
+
 
     public Clothing() {
     }
 
-    public Clothing(String name, String categorty, String price) {
+    public Clothing(String name, String category, String price) {
         this.name = name;
-        this.categorty = categorty;
+        this.category = category;
         this.price = price;
     }
 
@@ -22,26 +25,8 @@ public class Clothing {
         this.name = name;
     }
 
-    public String getCategorty() {
-        return categorty;
-    }
-
-    public void setCategorty(String categorty) {
-        this.categorty = categorty;
-    }
-
-    public String getPrice() {
-        return price;
-    }
-
-    public void setPrice(String price) {
-        this.price = price;
-    }
-
     @Override
     public String toString() {
-        return "옷이름: " + name +
-                ", 카테고리 : " + categorty +
-                ", 옷가격 : " + price + "원";
+        return "옷이름 : " + name +  ", 카테고리 : " + category +  ", 옷가격 : " + price + "원";
     }
 }

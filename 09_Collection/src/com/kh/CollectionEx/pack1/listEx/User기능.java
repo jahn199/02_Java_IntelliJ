@@ -31,4 +31,25 @@ public class User기능 {
         }
         //사용자가 1명이라도 존재한다면 향상된 for문을 이용해서 유저들을 모두 출력
     }
+
+    //5. 유저 삭제하기
+    public void removeUser(){
+        //ClothingStore 방법과 동일하게 유저이름을 찾고 유저를 제거
+        System.out.println("\n=== 유저 삭제 ===");
+        System.out.println("삭제하고자 하는 유저 이름을 말하세요 : ");
+        String userName = sc.nextLine();
+
+        boolean found = false;
+        for (int i = 0; i < userList.size(); i++) {
+            if(userList.get(i).getUsername().equals(userName)){
+                userList.remove(i);
+                System.out.println("["+userName+"] 유저가 성공적으로 삭제되었습니다.");
+                found = true;
+                break;
+            }
+        }
+        if(!found){
+            System.out.println("["+userName+"] 해당 유저를 찾을 수 없습니다.");
+        }
+    }
 }
