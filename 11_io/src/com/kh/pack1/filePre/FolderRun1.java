@@ -4,6 +4,9 @@ public class FolderRun1 {
     public static void main(String[] args) {
         FolderPre1 folderPre1 = new FolderPre1();
         //folderPre1.method1();
-        folderPre1.method2();
+        //folderPre1.method2();
+
+        FilePre2 fp = new FilePre2();
+        fp.method1();
     }
 }
